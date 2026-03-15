@@ -1,0 +1,76 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Файлы с секретами
+config.py
+*.conf
+*.secret
+*.key
+*.pem
+*.crt
+token.txt
+bot_token.txt
+api_key.txt
+.env.local
+.env.production
+
+# Логи
+*.log
+logs/
+log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+temp/
+tmp/
+*.tmp
+*.bak
+*.old
+
+# Файлы сборки
+dist/
+build/
+*.egg-info/
+*.egg
+__pypackages__/
+
+# Файлы системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Архивные папки (которые не надо пушить)
+archive/
+old/
+backup/
